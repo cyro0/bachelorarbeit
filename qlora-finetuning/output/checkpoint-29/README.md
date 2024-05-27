@@ -1,6 +1,6 @@
 ---
 library_name: peft
-base_model: TheBloke/Mistral-7B-Instruct-v0.2-GPTQ
+base_model: TheBloke/TinyLlama-1.1B-Chat-v0.3-GPTQ
 ---
 
 # Model Card for Model ID
@@ -199,4 +199,5 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 [More Information Needed]
 ### Framework versions
 
+- PEFT 0.11.1
 - PEFT 0.10.0
