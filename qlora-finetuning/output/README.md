@@ -3,7 +3,7 @@ license: apache-2.0
 library_name: peft
 tags:
 - generated_from_trainer
-base_model: TheBloke/Mistral-7B-Instruct-v0.2-GPTQ
+base_model: TheBloke/TinyLlama-1.1B-Chat-v0.3-GPTQ
 model-index:
 - name: output
   results: []
@@ -14,9 +14,9 @@ should probably proofread and complete it, then remove this comment. -->
 
 # output
 
-This model is a fine-tuned version of [TheBloke/Mistral-7B-Instruct-v0.2-GPTQ](https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.2-GPTQ) on an unknown dataset.
+This model is a fine-tuned version of [TheBloke/TinyLlama-1.1B-Chat-v0.3-GPTQ](https://huggingface.co/TheBloke/TinyLlama-1.1B-Chat-v0.3-GPTQ) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Loss: 1.6997
+- Loss: 3.1257
 
 ## Model description
 
@@ -49,24 +49,24 @@ The following hyperparameters were used during training:
 
 ### Training results
 
-| Training Loss | Epoch | Step | Validation Loss |
-|:-------------:|:-----:|:----:|:---------------:|
-| 4.5908        | 0.92  | 3    | 3.9562          |
-| 4.028         | 1.85  | 6    | 3.4157          |
-| 3.4351        | 2.77  | 9    | 2.9484          |
-| 2.2257        | 4.0   | 13   | 2.5235          |
-| 2.6268        | 4.92  | 16   | 2.2715          |
-| 2.289         | 5.85  | 19   | 2.0605          |
-| 2.0218        | 6.77  | 22   | 1.8764          |
-| 1.3978        | 8.0   | 26   | 1.7446          |
-| 1.7683        | 8.92  | 29   | 1.7044          |
-| 1.2368        | 9.23  | 30   | 1.6997          |
+| Training Loss | Epoch  | Step | Validation Loss |
+|:-------------:|:------:|:----:|:---------------:|
+| 3.8376        | 0.9231 | 3    | 3.4528          |
+| 3.7804        | 1.8462 | 6    | 3.4100          |
+| 3.7274        | 2.7692 | 9    | 3.3610          |
+| 2.7483        | 4.0    | 13   | 3.2940          |
+| 3.6095        | 4.9231 | 16   | 3.2470          |
+| 3.5425        | 5.8462 | 19   | 3.2051          |
+| 3.495         | 6.7692 | 22   | 3.1705          |
+| 2.581         | 8.0    | 26   | 3.1383          |
+| 3.4177        | 8.9231 | 29   | 3.1267          |
+| 2.3317        | 9.2308 | 30   | 3.1257          |
 
 
 ### Framework versions
 
-- PEFT 0.10.0
-- Transformers 4.39.3
-- Pytorch 2.2.2+cu118
-- Datasets 2.19.0
-- Tokenizers 0.15.2
+- PEFT 0.11.1
+- Transformers 4.40.2
+- Pytorch 2.3.0+cu118
+- Datasets 2.19.1
+- Tokenizers 0.19.1

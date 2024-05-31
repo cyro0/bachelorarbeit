@@ -1,5 +1,5 @@
 {
-  "best_metric": 3.4516377449035645,
+  "best_metric": 3.4528303146362305,
   "best_model_checkpoint": "output\\checkpoint-3",
   "epoch": 0.9230769230769231,
   "eval_steps": 500,
@@ -10,17 +10,17 @@
   "log_history": [
     {
       "epoch": 0.9230769230769231,
-      "grad_norm": 0.24421365559101105,
+      "grad_norm": 0.23375765979290009,
       "learning_rate": 0.00019285714285714286,
-      "loss": 3.8373,
+      "loss": 3.8376,
       "step": 3
     },
     {
       "epoch": 0.9230769230769231,
-      "eval_loss": 3.4516377449035645,
-      "eval_runtime": 2.1884,
-      "eval_samples_per_second": 4.113,
-      "eval_steps_per_second": 1.371,
+      "eval_loss": 3.4528303146362305,
+      "eval_runtime": 2.1752,
+      "eval_samples_per_second": 4.138,
+      "eval_steps_per_second": 1.379,
       "step": 3
     }
   ],
