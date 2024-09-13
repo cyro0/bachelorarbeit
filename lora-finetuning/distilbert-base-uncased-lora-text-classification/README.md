@@ -18,7 +18,7 @@ should probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Loss: 0.1286
+- Loss: 0.1199
 - Accuracy: {'accuracy': 0.9847328244274809}
 
 ## Model description
@@ -50,16 +50,16 @@ The following hyperparameters were used during training:
 
 | Training Loss | Epoch | Step | Validation Loss | Accuracy                         |
 |:-------------:|:-----:|:----:|:---------------:|:--------------------------------:|
-| No log        | 1.0   | 261  | 0.1262          | {'accuracy': 0.9541984732824428} |
-| 0.1665        | 2.0   | 522  | 0.1670          | {'accuracy': 0.9770992366412213} |
-| 0.1665        | 3.0   | 783  | 0.1754          | {'accuracy': 0.9656488549618321} |
-| 0.0674        | 4.0   | 1044 | 0.1361          | {'accuracy': 0.9847328244274809} |
-| 0.0674        | 5.0   | 1305 | 0.2089          | {'accuracy': 0.9770992366412213} |
-| 0.0109        | 6.0   | 1566 | 0.0684          | {'accuracy': 0.9847328244274809} |
-| 0.0109        | 7.0   | 1827 | 0.1425          | {'accuracy': 0.9809160305343512} |
-| 0.0127        | 8.0   | 2088 | 0.0935          | {'accuracy': 0.9923664122137404} |
-| 0.0127        | 9.0   | 2349 | 0.0942          | {'accuracy': 0.9923664122137404} |
-| 0.0           | 10.0  | 2610 | 0.1286          | {'accuracy': 0.9847328244274809} |
+| No log        | 1.0   | 261  | 0.3227          | {'accuracy': 0.9198473282442748} |
+| 0.1636        | 2.0   | 522  | 0.0934          | {'accuracy': 0.9770992366412213} |
+| 0.1636        | 3.0   | 783  | 0.1471          | {'accuracy': 0.9732824427480916} |
+| 0.0306        | 4.0   | 1044 | 0.1081          | {'accuracy': 0.9847328244274809} |
+| 0.0306        | 5.0   | 1305 | 0.1560          | {'accuracy': 0.9770992366412213} |
+| 0.0           | 6.0   | 1566 | 0.1596          | {'accuracy': 0.9770992366412213} |
+| 0.0           | 7.0   | 1827 | 0.1625          | {'accuracy': 0.9770992366412213} |
+| 0.0           | 8.0   | 2088 | 0.1628          | {'accuracy': 0.9770992366412213} |
+| 0.0           | 9.0   | 2349 | 0.1380          | {'accuracy': 0.9847328244274809} |
+| 0.0           | 10.0  | 2610 | 0.1199          | {'accuracy': 0.9847328244274809} |
 
 
 ### Framework versions
