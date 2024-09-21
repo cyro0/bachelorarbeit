@@ -21,11 +21,11 @@ should probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Loss: 0.1017
-- Accuracy: 0.9821
-- F1: 0.9732
-- Precision: 0.9645
-- Recall: 0.9821
+- Loss: 0.7001
+- Accuracy: 0.4828
+- F1: 0.3144
+- Precision: 0.2331
+- Recall: 0.4828
 
 ## Model description
 
@@ -54,13 +54,13 @@ The following hyperparameters were used during training:
 
 ### Training results
 
-| Training Loss | Epoch | Step  | Validation Loss | Accuracy | F1     | Precision | Recall |
-|:-------------:|:-----:|:-----:|:---------------:|:--------:|:------:|:---------:|:------:|
-| 0.1169        | 1.0   | 2541  | 0.1062          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
-| 0.0992        | 2.0   | 5082  | 0.0910          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
-| 0.105         | 3.0   | 7623  | 0.0976          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
-| 0.1189        | 4.0   | 10164 | 0.1009          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
-| 0.1048        | 5.0   | 12705 | 0.1017          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
+| Training Loss | Epoch | Step | Validation Loss | Accuracy | F1     | Precision | Recall |
+|:-------------:|:-----:|:----:|:---------------:|:--------:|:------:|:---------:|:------:|
+| No log        | 1.0   | 273  | 0.7032          | 0.4828   | 0.3144 | 0.2331    | 0.4828 |
+| 0.6723        | 2.0   | 546  | 0.7017          | 0.4828   | 0.3144 | 0.2331    | 0.4828 |
+| 0.6723        | 3.0   | 819  | 0.7008          | 0.4828   | 0.3144 | 0.2331    | 0.4828 |
+| 0.6716        | 4.0   | 1092 | 0.7002          | 0.4828   | 0.3144 | 0.2331    | 0.4828 |
+| 0.6716        | 5.0   | 1365 | 0.7001          | 0.4828   | 0.3144 | 0.2331    | 0.4828 |
 
 
 ### Framework versions
