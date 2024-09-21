@@ -23,8 +23,8 @@
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
-    "k_lin",
     "v_lin",
+    "k_lin",
     "q_lin"
   ],
   "task_type": "SEQ_CLS",

@@ -6,6 +6,9 @@ tags:
 base_model: distilbert-base-uncased
 metrics:
 - accuracy
+- f1
+- precision
+- recall
 model-index:
 - name: distilbert-base-uncased-lora-text-classification
   results: []
@@ -18,8 +21,11 @@ should probably proofread and complete it, then remove this comment. -->
 
 This model is a fine-tuned version of [distilbert-base-uncased](https://huggingface.co/distilbert-base-uncased) on an unknown dataset.
 It achieves the following results on the evaluation set:
-- Loss: 0.0999
-- Accuracy: {'accuracy': 0.9820971867007673}
+- Loss: 0.1017
+- Accuracy: 0.9821
+- F1: 0.9732
+- Precision: 0.9645
+- Recall: 0.9821
 
 ## Model description
 
@@ -48,13 +54,13 @@ The following hyperparameters were used during training:
 
 ### Training results
 
-| Training Loss | Epoch | Step  | Validation Loss | Accuracy                         |
-|:-------------:|:-----:|:-----:|:---------------:|:--------------------------------:|
-| 0.1514        | 1.0   | 2541  | 0.1243          | {'accuracy': 0.9820971867007673} |
-| 0.0972        | 2.0   | 5082  | 0.0883          | {'accuracy': 0.9820971867007673} |
-| 0.1032        | 3.0   | 7623  | 0.0950          | {'accuracy': 0.9820971867007673} |
-| 0.1153        | 4.0   | 10164 | 0.0989          | {'accuracy': 0.9820971867007673} |
-| 0.1026        | 5.0   | 12705 | 0.0999          | {'accuracy': 0.9820971867007673} |
+| Training Loss | Epoch | Step  | Validation Loss | Accuracy | F1     | Precision | Recall |
+|:-------------:|:-----:|:-----:|:---------------:|:--------:|:------:|:---------:|:------:|
+| 0.1169        | 1.0   | 2541  | 0.1062          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
+| 0.0992        | 2.0   | 5082  | 0.0910          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
+| 0.105         | 3.0   | 7623  | 0.0976          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
+| 0.1189        | 4.0   | 10164 | 0.1009          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
+| 0.1048        | 5.0   | 12705 | 0.1017          | 0.9821   | 0.9732 | 0.9645    | 0.9821 |
 
 
 ### Framework versions
