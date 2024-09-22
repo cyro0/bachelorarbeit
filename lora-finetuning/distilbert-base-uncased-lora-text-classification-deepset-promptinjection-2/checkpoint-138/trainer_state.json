@@ -1,0 +1,41 @@
+{
+  "best_metric": 0.16961254179477692,
+  "best_model_checkpoint": "distilbert-base-uncased-lora-text-classification-deepset-promptinjection-2\\checkpoint-69",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 138,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_auprc": 0.9410714285714284,
+      "eval_f1": 0.9396327477286996,
+      "eval_loss": 0.16961254179477692,
+      "eval_runtime": 0.7829,
+      "eval_samples_per_second": 148.166,
+      "eval_steps_per_second": 19.159,
+      "step": 69
+    },
+    {
+      "epoch": 2.0,
+      "eval_auprc": 0.9160714285714286,
+      "eval_f1": 0.9135878489326764,
+      "eval_loss": 0.3368469774723053,
+      "eval_runtime": 0.7719,
+      "eval_samples_per_second": 150.272,
+      "eval_steps_per_second": 19.432,
+      "step": 138
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 345,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "total_flos": 170384425795584.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
