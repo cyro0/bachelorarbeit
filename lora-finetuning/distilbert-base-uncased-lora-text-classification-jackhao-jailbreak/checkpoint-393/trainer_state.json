@@ -1,0 +1,51 @@
+{
+  "best_metric": 0.057108040899038315,
+  "best_model_checkpoint": "distilbert-base-uncased-lora-text-classification-jackhao-jailbreak\\checkpoint-393",
+  "epoch": 3.0,
+  "eval_steps": 500,
+  "global_step": 393,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_auprc": 0.969602943599319,
+      "eval_f1": 0.9312616772540436,
+      "eval_loss": 0.159395232796669,
+      "eval_runtime": 3.7983,
+      "eval_samples_per_second": 68.978,
+      "eval_steps_per_second": 8.688,
+      "step": 131
+    },
+    {
+      "epoch": 2.0,
+      "eval_auprc": 0.9894283046844967,
+      "eval_f1": 0.9847328244274809,
+      "eval_loss": 0.08288579434156418,
+      "eval_runtime": 3.8172,
+      "eval_samples_per_second": 68.637,
+      "eval_steps_per_second": 8.645,
+      "step": 262
+    },
+    {
+      "epoch": 3.0,
+      "eval_auprc": 0.9876874471216256,
+      "eval_f1": 0.9809202144531748,
+      "eval_loss": 0.057108040899038315,
+      "eval_runtime": 3.7982,
+      "eval_samples_per_second": 68.98,
+      "eval_steps_per_second": 8.688,
+      "step": 393
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 655,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 5,
+  "save_steps": 500,
+  "total_flos": 424841319235584.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
